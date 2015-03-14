@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff8bff72">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/q"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/Pascal"
+        android:id="@+id/PascalBtn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/Delphi"
+        android:id="@+id/DelphiBtn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/Java"
+        android:id="@+id/JavaBtn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/HTML"
+        android:id="@+id/HTMLBtn"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/C"
+        android:id="@+id/CBtn"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
